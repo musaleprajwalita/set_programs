@@ -1,0 +1,28 @@
+#Write a Python program to create a set.
+a = set()
+a.update((12,35,45,62,12,55))
+print(a)
+
+#Write a Python program to iteration over sets.
+for i in a:
+    print(i)
+    
+#Write a Python program to add member(s) in a set
+clr_st = set()
+print('add single color')
+clr_st.add('Red')
+print(clr_st)
+print('add multiple clrs')
+clr_st.update(('green','blue'))
+print(clr_st)
+
+#Write a Python program to remove item(s) from a given set
+s ={12,54,20,36,87,42,23}
+s.pop()
+print(s)
+s.remove(20)
+print(s)
+s.discard(12)
+print(s)
+s.discard(100)
+print(s)
