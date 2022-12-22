@@ -1,0 +1,13 @@
+#Write a Python program to create an intersection of sets,union of sets, set difference,symmetric difference,subset of another set
+s ={12,54,20,36,87,42,23}
+s1 = {10,20,36,87,24,42}
+b = {10,14,1,87,11}
+c= {10,14}
+print(s&s1)
+print(s|s1)
+print(s-s1)
+print(s.difference(s1,b)) # or
+print(s1.symmetric_difference(b))
+print(b.issubset(c))
+print(c.issubset(b))
+print(b.issuperset(c))
