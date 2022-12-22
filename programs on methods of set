@@ -26,3 +26,10 @@ s.discard(12)
 print(s)
 s.discard(100)
 print(s)
+
+# find min and max value in set
+print(max(s))
+print(min(s))
+print(len(s))
+print(5 in s)
+print(87 not in s)
